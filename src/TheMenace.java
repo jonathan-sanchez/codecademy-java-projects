@@ -14,7 +14,7 @@ public class TheMenace {
         String userInput = sc.nextLine();
     
         if (userInput.endsWith("?")) {
-            System.out.println("Sure");
+            System.out.println("Onyx stares with curiosity, waiting for his next comand.");
         } else if (userInput.endsWith("!")) {
             System.out.println("Whoa, chill out!");
         } else if (userInput == "") {
