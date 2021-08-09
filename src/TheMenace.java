@@ -13,12 +13,12 @@ public class TheMenace {
         System.out.println("Onyx know's a few commands, try giving him one to see his reaction!");
         String userInput = sc.nextLine();
     
-        if (userInput.endsWith("?")) {
+        if (userInput == "sit") {
             System.out.println("Onyx stares with curiosity, waiting for his next comand.");
-        } else if (userInput.endsWith("!")) {
+        } else if (userInput == "treat") {
             System.out.println("Whoa, chill out!");
         } else if (userInput == "") {
-            System.out.println("Fine, be that way!");
+            System.out.println("Bark!!");
         } else {
             System.out.println("Eh, whatever man.");
         }
