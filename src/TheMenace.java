@@ -11,6 +11,7 @@ public class TheMenace {
         Scanner sc = new Scanner(System.in);
         
         System.out.println("Onyx know's a few commands, try giving him one to see his reaction!");
+        System.out.println("Here are a few commands: 1: sit 2: stay 3: treat 4: up 5: lay down");
         String userInput = sc.nextLine();
     
         if (userInput == "sit") {
