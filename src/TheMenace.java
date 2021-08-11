@@ -17,7 +17,7 @@ public class TheMenace {
         if (userInput == "sit") {
             System.out.println("Onyx stares with curiosity, waiting for his next comand.");
         } else if (userInput == "treat") {
-            System.out.println("Whoa, chill out!");
+            System.out.println("Bark! Bark! Onyx Really wants that treat!");
         } else if (userInput == "") {
             System.out.println("Bark!!");
         } else {
