@@ -1,4 +1,4 @@
-public class PlusandMinus {
+public class PlusAndMinus {
     public static void main(String[] args) {
 
         int zebrasInZoo = 8;
