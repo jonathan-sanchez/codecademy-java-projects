@@ -12,5 +12,16 @@ public class Operations {
         int expression3 = 5 * 4 % 3 - 2 + 1;
 
         System.out.println(expression3);
+
+        /*
+        Operational Order as Follows:
+        
+        1. Parenthesis
+        2. Multiplication
+        3. Division
+        4. Modulo 
+        5. Addition
+        6. Subtraction
+        */ 
     }
 }
