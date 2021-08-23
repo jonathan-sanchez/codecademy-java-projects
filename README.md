@@ -1,6 +1,6 @@
 ## This is my personal repository for my Code Academy Java projects
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This repo holds my current progress for my Code Academy Java Course, along with projects included in the course.
 
 ## Folder Structure
 
