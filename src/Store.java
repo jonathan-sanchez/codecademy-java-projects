@@ -7,6 +7,7 @@ public class Store {
 
     //Constructor Method
     public Store(String product, int count, double price) {
+        System.out.println("I am inside the constructor method!");
         productType = product;
         inventoryCount = count;
         inventoryPrice = price;
