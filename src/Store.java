@@ -15,11 +15,12 @@ public class Store {
     
     //Main Method is where we create instances
     public static void main(String[] args) {
-
+        System.out.println("This is the Main Method!");
         //Create the instance below
         Store lemonadeStand = new Store("lemonade", 42, .99);
         Store cookieShop = new Store("cookies", 12, 3.75);
         Store vapeShop = new Store("vape juice", 50, 19.99);
+        Store wichShop = new Store("sandwiches", 15, 7.99);
 
         //Print the instance below
         System.out.println("Our first shop sells " + lemonadeStand.productType + " at " + lemonadeStand.inventoryPrice + " per unit.");
@@ -27,5 +28,7 @@ public class Store {
         System.out.println("Our second shop sells " + cookieShop.productType + " at " + cookieShop.inventoryPrice + " per unit.");
 
         System.out.println("Our third shop sells " + vapeShop.productType + " at " + vapeShop.inventoryPrice + " per unit.");
+
+        System.out.println("Our fourth shop sells " + wichShop.productType + " at " + wichShop.inventoryPrice + " per unit.");
     }
 }
