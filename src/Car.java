@@ -12,6 +12,7 @@ public class Car {
     //Constructor 2
     public Car(boolean electricCar, int milesPerGallon) {
         isElectric = electricCar;
+        isNotElectric = notElectric;
         mpg = milesPerGallon;
     }
 }
