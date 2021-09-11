@@ -23,6 +23,7 @@ public class Store {
         Store wichShop = new Store("sandwiches", 15, 7.99);
         Store iceCreamShop = new Store("ice cream", 25, 4.99);
         Store videoGameStore = new Store("video games", 100, 5.99);
+        Store craftShop = new Store("bracelets", 50, 100);
 
         //Print the instance below
         System.out.println("Our first shop sells " + lemonadeStand.productType + " at " + lemonadeStand.inventoryPrice + " per unit.");
