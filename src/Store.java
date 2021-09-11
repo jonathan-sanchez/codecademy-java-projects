@@ -37,5 +37,7 @@ public class Store {
         System.out.println("Our fifth shop sells " + iceCreamShop.productType + " at " + iceCreamShop.inventoryPrice + " per unit.");
 
         System.out.println("Our sixth shop sells " + videoGameStore.productType + " at " + videoGameStore.inventoryPrice + " per unit.");
+
+        System.out.println("Our seventh shop sells " + craftShop.productType + " at " + craftShop.inventoryPrice + " per unit.");
     }
 }
