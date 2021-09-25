@@ -27,6 +27,7 @@ public class Store {
         Store petShop = new Store("pet supplies", 100, 29.99);
         Store shoeStore = new Store("shoes", 50, 49.99);
         Store phoneStore = new Store("cell phones", 50, 99.99);
+        Store skateShop = new Store("Skateboards", 100, 49.99);
 
         //Print the instance below
         System.out.println("Our first shop sells " + lemonadeStand.productType + " at " + lemonadeStand.inventoryPrice + " per unit.");
@@ -48,5 +49,7 @@ public class Store {
         System.out.println("Our ninth shop sells " + shoeStore.productType + " at " + shoeStore.inventoryPrice + " per unit.");
 
         System.out.println("Our tenth shop sells " + phoneStore.productType + " at " + phoneStore.inventoryPrice + " per unit.");
+
+        System.out.println("Another shop sells " + phoneStore.productType + " at " + phoneStore.inventoryPrice + " per unit.");
     }
 }
