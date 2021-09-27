@@ -6,7 +6,7 @@ public class Zoo {
         String species = "Zebra";
         String country = "Africa";
 
-        String zooDescription = "Our zoo has " + animals + " " + species + "s!";
+        String zooDescription = "Our zoo has " + animals + " " + species + "s from " + country + "!";
 
         System.out.println(zooDescription);
     }
