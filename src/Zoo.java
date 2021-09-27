@@ -4,6 +4,7 @@ public class Zoo {
         int animals = 12;
 
         String species = "Zebra";
+        String country = "Africa";
 
         String zooDescription = "Our zoo has " + animals + " " + species + "s!";
 
