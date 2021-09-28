@@ -13,6 +13,6 @@ public class MyProfile {
 
         boolean lookingForJob = true;
 
-        System.out.println("Hi my name is " + name + lastName + "");
+        System.out.println("Hi my name is " + name + " " + lastName + ", and I am " + age + " years old!");
     }
 }
