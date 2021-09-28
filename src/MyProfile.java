@@ -3,6 +3,8 @@ public class MyProfile {
 
         String name = "Jonathan";
 
+        String lastName = "Sanchez";
+
         int age = 28;
 
         double desiredSalary = 90000;
@@ -10,5 +12,7 @@ public class MyProfile {
         char gender = 'M';
 
         boolean lookingForJob = true;
+
+        System.out.println("Hi my name is " + name + lastName + "");
     }
 }
