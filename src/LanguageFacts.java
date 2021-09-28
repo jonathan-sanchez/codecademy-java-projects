@@ -7,5 +7,7 @@ public class LanguageFacts {
         System.out.println("Java statements end with a semicolon.");
     
         System.out.println("Programming is awesome.");
+
+        System.out.println("Java is more fun than css.");
       }
 }
