@@ -12,8 +12,8 @@ public class Dog {
     
     public static void main(String[] args) {
       System.out.println("Main method started");
-      Dog fido = new Dog("poodle", false, 4);
-      Dog nunzio = new Dog("shiba inu", true, 12);
+      Dog Onyx = new Dog("lab", false, 4);
+      Dog nunzio = new Dog("lab mix", true, 12);
       boolean isFidoOlder = fido.age > nunzio.age;
       int totalDogYears = nunzio.age + fido.age;
       System.out.println("Two dogs created: a " + fido.breed + " and a " + nunzio.breed);
