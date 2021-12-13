@@ -11,5 +11,6 @@ public class JonBot {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("As Jon walks in with his head held high looks at you and says 'Hey beautiful!'");
+        System.out.println("How's your day?!");
     }
 }
