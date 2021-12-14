@@ -21,6 +21,7 @@ public class CarLoan {
             int months = loanLength * 12;
             //This represents the monthly payment without interest included
             int monthlyBalance = remainingBalance / months;
+            //The user needs to pay interest on the loan borrowed.
             int interest = monthlyBalance * interestRate / 100;
             int monthlyPayment = monthlyBalance + interest;
             System.out.println(monthlyPayment);
