@@ -1,4 +1,4 @@
-## This is my personal repository for my Code Academy Java projects
+## This is my personal repository for my Codecademy Java projects
 
 This repo holds my current progress for my Code Academy Java Course, along with projects included in the course.
 
