@@ -1,4 +1,4 @@
-## This is my personal repository for my Code Academy Java projects
+## This is my personal repository for my Codecademy Java projects
 
 This repo holds my current progress for my Code Academy Java Course, along with projects included in the course.
 
@@ -16,4 +16,4 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 ## Dependency Management
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-# CodeAcademy-java-projects
+# Codecademy-java-projects
