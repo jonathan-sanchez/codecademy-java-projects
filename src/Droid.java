@@ -23,4 +23,8 @@ public class Droid {
     public String toString() {
         return "Hello, I am the droid: " + name;
     }
+    //Perform task method for Droid
+    public String performTask(String task) {
+        return name + " is performing task: " + task;
+    }
 }
