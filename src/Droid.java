@@ -24,16 +24,24 @@ public class Droid {
         System.out.println("Current battery level: " + batteryLevel + "%");
     }
 
+    public void energyTransfer(int newBatteryLevel) {
+        this.batteryLevel = newBatteryLevel;
+    }
+
     //Main method
     public static void main(String[] args) {
 
         //New instance of Droid named "Codey"
         Droid codey = new Droid("Codey");
+        Droid R2 = new Droid("R2");
         //Print the variable for myDroid
         System.out.println(codey); //When printing it returns an object instead of the droid name. Must define a toString method for object
+        System.out.println(R2);
         codey.performTask("dancing");
         codey.performTask("coding");
+        codey.performTask("cooking");
         codey.energyReport();
+        codey.energyTransfer(R2.batteryLevel);
     }
 
 }
