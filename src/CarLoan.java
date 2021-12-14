@@ -26,7 +26,7 @@ public class CarLoan {
             //Here we calculate the final payment.
             int monthlyPayment = monthlyBalance + interest;
             //Print monthlyPayment
-            System.out.println(monthlyPayment);
+            System.out.println("Your monthly payment will be $" + monthlyPayment);
         }
     }
 }
