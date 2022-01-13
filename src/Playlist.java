@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Playlist {
     
-    public static void maain(String[] args) {
+    public static void main(String[] args) {
         
         //Creating a new ArrayList
         ArrayList<String> desertIslandPlaylist = new ArrayList<String>();
@@ -31,5 +31,10 @@ public class Playlist {
         desertIslandPlaylist.remove("Antivist - Bring me the Horizon");
         desertIslandPlaylist.remove("Wait - Maroon 5");
         desertIslandPlaylist.remove("Earth - Lil Dicky");
+
+        // System.out.println(desertIslandPlaylist);
+        // System.out.println(desertIslandPlaylist.size());
+
+        // Swapping Songs
     }
 }
