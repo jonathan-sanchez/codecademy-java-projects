@@ -36,5 +36,14 @@ public class Playlist {
         // System.out.println(desertIslandPlaylist.size());
 
         // Swapping Songs
+        int indexA = desertIslandPlaylist.indexOf("Holy Diver - Dio");
+        int indexB = desertIslandPlaylist.indexOf("Master Exploder - Tenacious D");
+
+        String tempA = "Holy Diver - Dio";
+
+        desertIslandPlaylist.set(indexA, "Master Exploder - Tenacious D");
+        // System.out.println(desertIslandPlaylist);  
+        desertIslandPlaylist.set(indexB, tempA);
+        System.out.println(desertIslandPlaylist);  
     }
 }
