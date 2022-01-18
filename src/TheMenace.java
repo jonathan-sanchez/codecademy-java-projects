@@ -23,7 +23,7 @@ public class TheMenace {
         } else if (userInput == "no"){
             System.out.println("Onyx eyes open wide as he lowers his ears.");
         } else {
-            System.out.println()
+            System.out.println("Eh, whatever man.");
         }
     }
 }
