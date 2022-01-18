@@ -20,8 +20,10 @@ public class TheMenace {
             System.out.println("Bark! Bark! Onyx Really wants that treat!");
         } else if (userInput == "") {
             System.out.println("Bark!!");
+        } else if (userInput == "no"){
+            System.out.println("Onyx eyes open wide as he lowers his ears.");
         } else {
-            System.out.println("Eh, whatever man.");
+            System.out.println()
         }
     }
 }
