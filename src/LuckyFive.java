@@ -6,6 +6,11 @@ public class LuckyFive {
 
         Random randomGenerator = new Random();
 
-        int dieRoll =
+        int dieRoll = randomGenerator.nextInt();
+
+        while(dieRoll != 5) {
+            System.out.println(dieRoll);
+            dieRoll = randomGenerator.nextInt(6) + 1;
+        }
     }
 }
