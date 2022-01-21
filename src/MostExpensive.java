@@ -18,6 +18,8 @@ public class MostExpensive {
             if (expense > mostExpensive) {
                 mostExpensive = expense;
             }
+
+            System.out.println(mostExpensive);
         }
     }
 }
