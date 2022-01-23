@@ -1,4 +1,19 @@
+import java.util.ArrayList;
+
 public class PrimeDirective {
+
+    public ArrayList<Integer> onlyPrimes(int[] numbers) {
+        
+        ArrayList<Integer> primes = new ArrayList<Integer>();
+        
+        for (int number : numbers) {
+
+          if (isPrime(number)) {
+            primes.add(number);
+          }
+        }
+        return primes;
+      }
     
     public boolean isPrime(int number) {
 
@@ -8,10 +23,13 @@ public class PrimeDirective {
             return false;
         }
 
-        for (int i = 0; i < number; i++) {
+        for (int i = 2; i < number; i++) {
 
-            if () {}
+            if (number % i == 0) {
+                return false;
+            }
         }
+        return true;
     }
 
     public static void main(String[] args) {
@@ -20,5 +38,7 @@ public class PrimeDirective {
 
         int[] numbers = {6, 29, 28, 33, 11, 100, 101, 43, 89};
 
+        System.out.println(pd.isPrime(6));
+        System.out.println(pd.onlyPrimes(numbers));
     }
 }
