@@ -12,6 +12,16 @@ public class Noodle {
         this.widthInCentimeters = wthInCent;
         this.shape = shp;
         this.ingredients = ingr;
-        
+
+    }
+
+    public void cook() {
+
+        this.texture = "cooked";
+
+    }
+
+    public static void main(String[] args) {
+
     }
 }
