@@ -5,4 +5,13 @@ public class Noodle {
     String shape;
     String ingredients;
     String texture = "brittle";
+
+    Noodle (double lenInCen, double wthInCent, String shp, String ingr) {
+
+        this.lengthInCentimeters = lenInCen;
+        this.widthInCentimeters = wthInCent;
+        this.shape = shp;
+        this.ingredients = ingr;
+        
+    }
 }
