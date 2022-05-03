@@ -5,8 +5,15 @@ public class Language {
     protected String regionsSpoken;
     protected String wordOrder;
 
-    Language() {
+    Language(String langName, int speakers, String regions, String wrdOrder) {
+        this.name = langName;
+        this.numSpeakers = speakers;
+        this.regionsSpoken = regions;
+        this.wordOrder = wrdOrder;
+    }
 
+    public void getInfo() {
+        System.out.println();
     }
     
     public static void main(String[] args) {
