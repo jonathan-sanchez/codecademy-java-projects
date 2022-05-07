@@ -21,5 +21,9 @@ class Language {
 
         spanish.getInfo();
 
+        Mayan chuj = new Mayan("chuj", 61630);
+
+        chuj.getInfo();
+
     }
 }
