@@ -13,10 +13,11 @@ public class Language {
     }
 
     public void getInfo() {
-        System.out.println();
+        System.out.println(name + " is spoken by " + numSpeakers + " people mainly in " regionsSpoken + ". The Language follows the word order: " + wordOrder);
     }
     
     public static void main(String[] args) {
+        Language spanish = new Language();
 
     }
 }
