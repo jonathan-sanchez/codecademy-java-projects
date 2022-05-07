@@ -1,4 +1,4 @@
-public class Language {
+class Language {
 
     protected String name;
     protected int numSpeakers;
@@ -13,11 +13,13 @@ public class Language {
     }
 
     public void getInfo() {
-        System.out.println(name + " is spoken by " + numSpeakers + " people mainly in " regionsSpoken + ". The Language follows the word order: " + wordOrder);
+        System.out.println(name + " is spoken by " + numSpeakers + " people mainly in " + regionsSpoken + ". The Language follows the word order: " + wordOrder);
     }
     
     public static void main(String[] args) {
-        Language spanish = new Language();
+        Language spanish = new Language("spanish", 1000000, "Spain, Latin America, and Equatorial Guinea", "subject-verb-object");
+
+        spanish.getInfo();
 
     }
 }
