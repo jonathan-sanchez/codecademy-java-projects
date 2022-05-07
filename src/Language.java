@@ -25,5 +25,11 @@ class Language {
 
         chuj.getInfo();
 
+        SinoTibetan mandarin = new SinoTibetan("Mandarin Chinese", 1110000000);
+        mandarin.getInfo();
+
+        SinoTibetan burmese = new SinoTibetan("Burmese", 43000000);
+        burmese.getInfo();
+
     }
 }
