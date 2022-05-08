@@ -1,15 +1,14 @@
-import javax.security.auth.callback.LanguageCallback;
 
 public class SinoTibetan extends Language {
 
-    SinoTibetan(String languageName, int speakers) {
+	SinoTibetan(String languageName, int speakers) {
 
-        super(languageName, speakers, "Asia", "subject-object-verb");
+		super(languageName, speakers, "Asia", "subject-object-verb");
 
-        if(languageName.contains("Chinese")) {
+		if(languageName.contains("Chinese")) {
 
-            this.wordOrder = "subject-verb-object";
-        }
-    }
-    
+			this.wordOrder = "subject-verb-object";
+		}
+	}
+	
 }
